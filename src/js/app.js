@@ -28,7 +28,7 @@ async function handleSearch() {
 
   try {
     const response = await fetch(
-      "https://cledeocirmarafao.app.n8n.cloud/webhook/cineai",
+      "https://cmds.app.n8n.cloud/webhook/cineai",
       {
         method: "POST",
         headers: {
